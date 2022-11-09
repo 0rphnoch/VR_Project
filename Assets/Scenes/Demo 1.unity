@@ -374,11 +374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5652582236983452542, guid: 40ea66427df7bfa4681448fc7f5e043c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: -0.237
       objectReference: {fileID: 0}
     - target: {fileID: 5652582236983452542, guid: 40ea66427df7bfa4681448fc7f5e043c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.553
+      value: -0.999
       objectReference: {fileID: 0}
     - target: {fileID: 5652582236983452542, guid: 40ea66427df7bfa4681448fc7f5e043c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -790,7 +790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.85
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -798,7 +798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.43
+      value: -13.76
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1086,7 +1086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.35
+      value: -13.4
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1291,7 +1291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -13.12
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1410,16 +1410,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680783, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_RootOrder
@@ -1490,6 +1498,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 190573185663240601}
   spawnPoint: {fileID: 212102456}
+  _rigidbody: {fileID: 190573185663240605}
+--- !u!54 &190573185663240605 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 190573183969680782, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
+  m_PrefabInstance: {fileID: 190573185663240600}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &543450652799988218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
@@ -1516,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -13.13
       objectReference: {fileID: 0}
     - target: {fileID: 34146730361937596, guid: d241419c61ee6f8418be40dc1ff5c8e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1628,16 +1642,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 821771504425128360, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_Convex
@@ -1664,6 +1686,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 821771505066834788}
   spawnPoint: {fileID: 758819626}
+  _rigidbody: {fileID: 821771505066834792}
+--- !u!54 &821771505066834792 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 821771503562071218, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
+  m_PrefabInstance: {fileID: 821771505066834787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2156837058738086503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1736,16 +1764,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792015, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_Name
@@ -1776,6 +1812,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 2156837058738086504}
   spawnPoint: {fileID: 1117170599}
+  _rigidbody: {fileID: 2156837058738086508}
+--- !u!54 &2156837058738086508 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2156837059960792012, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
+  m_PrefabInstance: {fileID: 2156837058738086503}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4424662561033432052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1804,16 +1846,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266499, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_RootOrder
@@ -1888,6 +1938,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 4424662561033432053}
   spawnPoint: {fileID: 847560869}
+  _rigidbody: {fileID: 4424662561033432057}
+--- !u!54 &4424662561033432057 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4424662562757266498, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
+  m_PrefabInstance: {fileID: 4424662561033432052}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4508338992091319639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1952,16 +2008,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826309, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_Name
@@ -2000,6 +2064,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 4508338992091319640}
   spawnPoint: {fileID: 967827403}
+  _rigidbody: {fileID: 4508338992091319644}
+--- !u!54 &4508338992091319644 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4508338992204826306, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
+  m_PrefabInstance: {fileID: 4508338992091319639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8316486666765190571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2064,16 +2134,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
+      propertyPath: m_TightenRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1920051711}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 4.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 5
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939837, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_Name
@@ -2112,3 +2190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shuriken: {fileID: 8316486666765190572}
   spawnPoint: {fileID: 1510404181}
+  _rigidbody: {fileID: 8316486666765190576}
+--- !u!54 &8316486666765190576 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8316486666839939826, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
+  m_PrefabInstance: {fileID: 8316486666765190571}
+  m_PrefabAsset: {fileID: 0}

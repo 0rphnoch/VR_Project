@@ -8,6 +8,8 @@ public class SpawnShuriken : MonoBehaviour
 
     [SerializeField] private Transform spawnPoint;
 
+    [SerializeField] private Rigidbody _rigidbody;
+    
     // Update is called once per frame
     void Update()
     {
@@ -15,6 +17,8 @@ public class SpawnShuriken : MonoBehaviour
         {
             shuriken.transform.position = spawnPoint.position;
             shuriken.transform.rotation = spawnPoint.rotation;
+            _rigidbody.velocity=Vector3.zero;
+            
         }
     }
 }
