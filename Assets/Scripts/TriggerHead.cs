@@ -10,7 +10,7 @@ public class TriggerHead : MonoBehaviour
     {
         if (other.tag == "Shuriken")
         {
-            Object.Destroy(ninja.gameObject);
+            ninja.transform.position = SpawnEnemy.Instance.GetRandomPosition();
             GameManager.Instance.HitHead();
         }
     }
