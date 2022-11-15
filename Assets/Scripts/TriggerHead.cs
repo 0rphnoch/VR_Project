@@ -12,6 +12,7 @@ public class TriggerHead : MonoBehaviour
         {
             ninja.transform.position = SpawnEnemy.Instance.GetRandomPosition();
             GameManager.Instance.HitHead();
+            AudioManager.Instance.PlaySFX("Hit");
         }
     }
 }

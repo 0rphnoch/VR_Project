@@ -12,6 +12,7 @@ public class TriggerBody : MonoBehaviour
         {
             ninja.transform.position = SpawnEnemy.Instance.GetRandomPosition();
             GameManager.Instance.HitBody();
+            AudioManager.Instance.PlaySFX("Hit");
         }
     }
 
