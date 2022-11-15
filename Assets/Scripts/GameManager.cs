@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    int score = 0;
-    int highscore = 0;
+    public int score = 0;
+    public int highscore = 0;
     private void Awake()
     {
         if (Instance == null)
@@ -31,8 +31,8 @@ public class GameManager : MonoBehaviour
     public void HitHead()
     {
         score += 50;
-        Debug.Log(score);
-        if(highscore < score)
+        
+        if (highscore < score)
         {
             PlayerPrefs.SetInt("highscore", score);
         }
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     public void HitBody()
     {
         score += 20;
-        Debug.Log(score);
+        
         if (highscore < score)
         {
             PlayerPrefs.SetInt("highscore", score);
