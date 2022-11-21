@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: f3b3f6a697514944da8524250aa64277, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.4235966, g: 0.37266392, b: 0.35713908, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -849,7 +849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5652582236983452542, guid: 40ea66427df7bfa4681448fc7f5e043c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.237
+      value: 0.319
       objectReference: {fileID: 0}
     - target: {fileID: 5652582236983452542, guid: 40ea66427df7bfa4681448fc7f5e043c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1408,8 +1408,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 17.076775, y: 4.261305, z: 5.3562574}
-  m_Center: {x: -0.072939396, y: 1.6306524, z: 6.5477986}
+  m_Size: {x: 13.256385, y: 4.261305, z: 5.3562574}
+  m_Center: {x: 0.036407948, y: 1.6306524, z: 6.5477986}
 --- !u!1 &1095236621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +1922,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831502137}
-  m_LocalRotation: {x: 0.09297003, y: -0.595119, z: 0.073088855, w: 0.7948886}
+  m_LocalRotation: {x: 0.08694143, y: -0.53083944, z: 0.080166064, w: 0.8391806}
   m_LocalPosition: {x: 0, y: 0, z: -0.089}
   m_LocalScale: {x: 0.08782641, y: 0.13501403, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1932,7 +1932,7 @@ RectTransform:
   - {fileID: 102290126}
   m_Father: {fileID: 1360022965}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 13.58, y: -73.604, z: 0.326}
+  m_LocalEulerAnglesHint: {x: 13.358, y: -64.341, z: 2.488}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -1.614, y: 1.049}
@@ -2314,7 +2314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_ThrowAngularVelocityScale
@@ -2484,7 +2484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_ThrowAngularVelocityScale
@@ -2606,7 +2606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_ThrowAngularVelocityScale
@@ -2688,7 +2688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_ThrowAngularVelocityScale
@@ -2872,7 +2872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_ThrowAngularVelocityScale
@@ -2959,7 +2959,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4889163229712012036}
-  m_LocalRotation: {x: 0.000000042928587, y: -0.6088417, z: -0.0000001498029, w: 0.79329175}
+  m_LocalRotation: {x: 0.000000106378636, y: -0.54464537, z: -0.00000011786381, w: 0.83866644}
   m_LocalPosition: {x: -1.86, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2968,7 +2968,7 @@ Transform:
   - {fileID: 4675343977671538918}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -75.012, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -66.001, z: 0}
 --- !u!23 &6417838302432240952
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3096,7 +3096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_SmoothRotationAmount
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_ThrowAngularVelocityScale

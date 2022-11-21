@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 737024f24a4498b4ea58a67c1667a3db, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.16037136, g: 0.10995286, b: 0.15011346, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3597,7 +3597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSound:
   - name: Theme
-    clip: {fileID: 8300000, guid: 6444ebeddcc964a4abcfdc75cfbd2842, type: 3}
+    clip: {fileID: 8300000, guid: 5a481a26298d2b94381b6bc6a1057e9b, type: 3}
   sfxSounds:
   - name: Hit
     clip: {fileID: 8300000, guid: 2c7eeef7fde4f50498b1c2d52ddff550, type: 3}
