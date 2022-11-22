@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -25,6 +26,15 @@ public class GameManager : MonoBehaviour
     {
         highscore = PlayerPrefs.GetInt("highscore", 0);
         Debug.Log(highscore);
+    }
+
+    public void ChangeScene(string name)
+    {
+        if(name == "Demo 1")
+        {
+            score = 0;
+        }
+        SceneManager.LoadScene(name);
     }
 
     public void HitHead()

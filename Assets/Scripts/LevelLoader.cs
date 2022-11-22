@@ -7,8 +7,9 @@ public class LevelLoader : MonoBehaviour
 {
     public void PlayGame()
     {
-        LoadLevel("Demo 1");
         GameManager.Instance.score = 0;
+        LoadLevel("Demo 1");
+        //PlayerPrefs.SetInt("highscore", score);
     }
     public void LoadLevel(string sceneName)
     {

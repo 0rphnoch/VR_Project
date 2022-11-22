@@ -9,18 +9,26 @@ public class Timer : MonoBehaviour
 {
     public float timeValue = 90;
     public TextMeshProUGUI timerText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI highScoreText;
+    public GameObject panelEndGame;
+    public GameObject leftHand;
+    public GameObject rightHand;
+    public GameObject ninja;
+
     void Update()
     {
         if (timeValue > 0)
         {
             timeValue -= Time.deltaTime;
         }
-        else
+        else if(timeValue <= 0)
         {
-            timeValue = 0;
+            panelEndGame.SetActive(true);
+            TimeOut();
         }
         DisplayTime(timeValue);
-        TimeOut();
+        //TimeOut();
     }
 
     void DisplayTime(float timeToDisplay)
@@ -36,9 +44,10 @@ public class Timer : MonoBehaviour
     }
     void TimeOut()
     {
-        if (timeValue <= 0)
-        {
-            SceneManager.LoadScene("MainMenu");
-        }
+        scoreText.text = "Score : " + GameManager.Instance.score.ToString();
+        highScoreText.text = "Highscore : " + GameManager.Instance.highscore.ToString();
+        leftHand.SetActive(true);
+        rightHand.SetActive(true);
+        ninja.SetActive(false);
     }
 }
