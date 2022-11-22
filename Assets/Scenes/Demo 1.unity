@@ -2266,7 +2266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd119c3af473f374a8be58c32ec56c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 15
+  timeValue: 90
   timerText: {fileID: 1907112378}
   scoreText: {fileID: 444567951}
   highScoreText: {fileID: 496318236}
@@ -4416,7 +4416,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 190573183969680781, guid: 7f97bd65668566d4eb685198de84f927, type: 3}
       propertyPath: m_SmoothRotationAmount
@@ -4586,7 +4586,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 821771503562071219, guid: 2f17d64d54e204342a46e5bfe3172a52, type: 3}
       propertyPath: m_SmoothRotationAmount
@@ -4708,7 +4708,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2156837059960792013, guid: b13b59ce6b4cb1742a2cf0668c3e0840, type: 3}
       propertyPath: m_SmoothRotationAmount
@@ -4790,7 +4790,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4424662562757266497, guid: 18a87c0102ec06a4b8573ed6935a9a4d, type: 3}
       propertyPath: m_SmoothRotationAmount
@@ -4974,7 +4974,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4508338992204826307, guid: 1ffdce511e49b8d4db0949fd549b35eb, type: 3}
       propertyPath: m_SmoothRotationAmount
@@ -6046,7 +6046,7 @@ PrefabInstance:
       objectReference: {fileID: 1920051711}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_ThrowVelocityScale
-      value: 5.5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8316486666839939827, guid: bc63de47e818bb64ba84811c57beae3b, type: 3}
       propertyPath: m_SmoothRotationAmount
